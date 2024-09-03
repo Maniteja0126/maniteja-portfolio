@@ -115,6 +115,12 @@ export const skillsData = [
   "MongoDB",
   "PostgreSQL",
   "Express",
+  "Java",
+  "Redis",
+  "Rust",
+  "Prisma",
   "Docker",
-  "Java"
+  "Kubernetes",
+  "Web3",
+  "WebSockets"
 ] as const;
