@@ -5,7 +5,7 @@ import { FiGithub, FiTwitter, FiX } from "react-icons/fi";
 import { link } from "fs";
 import inscribe from '@/public/inscribe.png';
 import easyConnect from '@/public/easyConnect.png';
-import drawSync from '@/public/drawSync.png';
+import drawSync from '@/public/DrawSync.png';
 import TH from '@/public/TH.png';
 export const socials = [
   {
