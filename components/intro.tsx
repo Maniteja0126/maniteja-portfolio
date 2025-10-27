@@ -14,7 +14,7 @@ export default function Intro() {
   const [imageError, setImageError] = useState(false);
   
   const resumeDoxUrl =
-    "https://drive.google.com/file/d/1_uvGEZAO_S0sKCokHk-NAv8_vUeSfIbF/view?usp=drive_link";
+    "https://drive.google.com/file/d/1v36iHgKD3sgVIRfdr2TNRb0yxhAhtDPl/view?usp=sharing";
   const handleImageError = () => {
     setImageError(true);
   };

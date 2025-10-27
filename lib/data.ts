@@ -7,6 +7,9 @@ import inscribe from '@/public/inscribe.png';
 import easyConnect from '@/public/easyConnect.png';
 import drawSync from '@/public/DrawSync.png';
 import TH from '@/public/TH.png';
+import klinpe from '@/public/klinepe.png';
+import sniq from '@/public/sniq.png';
+import wpl from '@/public/wpl.png';
 export const socials = [
   {
     name: "GitHub",
@@ -59,6 +62,58 @@ export const links = [
 
 
 export const projectsData = [
+  {
+    title : "Klinpe",
+    description : "A decentralized payments mobile-first app for web and LIFF platforms, featuring escrow, bill-split, and cashback smart contracts on Kaia blockchain with real-time notifications.",
+    tags : [
+      "Next.js",
+      "Node.js",
+      "WebSockets",
+      "TypeScript",
+      "Redis",
+      "GraphQL",
+      "Kaia Blockchain",
+      "Envio",
+    ],
+    imageUrl: klinpe,
+    link: "",
+    deployUrl: "https://klinepe-two.vercel.app/",
+  },
+  {
+    title : "Sniq",
+    description : "A memecoin trading and discovery platform on StarkNet with live portfolio tracking, real-time token launches via Rust indexer, and multi-aggregator swaps for minimal slippage.",
+    tags : [
+      "Rust",
+      "Rocket.rs",
+      "MongoDB",
+      "Redis",
+      "Next.js",
+      "StarkNet",
+      "Apibara",
+      "WebSockets",
+      "TypeScript"
+    ],
+    imageUrl: sniq,
+    link: "",
+    deployUrl: "https://beta.sniq.fun/",
+  },
+  {
+    title : "WPL Earn",
+    description : "A bounty and grants platform for sponsors and developers with role-based access, automated USDT payouts via CopperX, interactive leaderboards, and AWS deployment with CI/CD.",
+    tags : [
+      "TypeScript",
+      "Node.js",
+      "Nest.js",
+      "PostgreSQL",
+      "Prisma",
+      "AWS S3",
+      "GitHub Actions",
+      "Next.js"
+    ],
+    imageUrl: wpl,
+    link: "",
+    deployUrl: "",
+  },
   {
     title: "DrawSync",
     description:
@@ -116,11 +171,9 @@ export const projectsData = [
       "React",
       "Next.js",
       "Tailwind",
-      "Sanity",
-      "Metamask",
-      "thirdweb",
-      "TypeScript",
-      "Web3",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
     ],
     imageUrl: TH,
     link: "https://github.com/Maniteja0126/breeze_travel_frontend",
@@ -130,12 +183,12 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: "Fullstack Developer Intern (Backend-focused)",
+    title: "Full Stack Developer Intern",
     location: "RogueDevs • Remote",
     description:
-      `• Developed and maintained fullstack features for web applications, improving load times by ~20% \n• Designed and optimized RESTful APIs using Node.js & Rust, enhancing data handling efficiency and reducing response latency \n• Monitored and maintained AWS EC2 production servers, ensuring 99.9% uptime \n• Implemented server health checks, log rotation, and alerts, reducing downtime incidents by 30%`,
+    `• Developed and optimized production-grade backend and indexer services for blockchain applications \n• Built modular service layers and WebSocket systems for real-time blockchain event streaming \n• Implemented CI/CD pipelines with GitHub Actions for testing, containerization, and deployment to AWS and Render \n• Automated monitoring and log rotation for microservices to maintain high uptime and performance`,
     icon: React.createElement(FiGithub),
-    date: "May 2025 – Present",
+    date: "May 2025 – Oct 2025",
   },
 ] as const;
 
@@ -155,6 +208,7 @@ export const skillsData = [
   "Prisma",
   "Docker",
   "Kubernetes",
+  "AWS",
   "Web3",
   "WebSockets"
 ] as const;

@@ -19,25 +19,13 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <div className="text-lg">
         <p className=" font-normal mb-3">
-          I&apos;m Mani Teja, a Full Stack Web Developer based in Andhra Pradesh , India. My expertise spans TypeScript, React, NextJS,
-          Node.js & TailwindCSS.
+          I&apos;m Mani Teja, a Full Stack Developer (Backend-Focused) based in Andhra Pradesh, India. I specialize in building scalable, high-performance applications using TypeScript, Rust, and Node.js, with a strong focus on clean architecture and backend efficiency.
         </p>
         <p className=" font-normal mb-3">
-          I&apos;m passionate about creating digital experiences that seamlessly
-          combine innovation and functionality. On the frontend, I specialize in
-          using React and Tailwind CSS to bring designs to life with a
-          focus on both visual appeal and responsiveness. In the backend, I
-          leverage Node.js to build robust and scalable
-          systems. My proficiency extends to database management, with
-          experience in both MongoDB and PostgreSQL.
+          I work across the stack crafting APIs with NestJS and Express, managing data with PostgreSQL and MongoDB, and deploying services through Docker, AWS, Terraform, and GitHub Actions. My passion lies in designing reliable systems, automating workflows, and ensuring seamless DevOps integration for smoother deployments.
         </p>
         <p className="font-normal mb-3">
-          {" "}
-          I&apos;m a firm believer in the importance of continuous learning,
-          constantly exploring new technologies to stay at the forefront of web
-          development. I&apos;m enthusiastic about collaborating with fellow
-          developers, designers, and innovators to create impactful solutions
-          that make a difference.
+          I&apos;m always exploring new technologies and cloud-native tools to refine my craft and build systems that are both powerful and developer-friendly.
         </p>
       </div>
     </motion.section>

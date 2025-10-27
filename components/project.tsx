@@ -36,12 +36,18 @@ export const Project = ({
               {title}
             </h3>
             <div className="flex gap-x-6">
-              <Link className="" href={link} target="_blank">
-                <BsGithub className="text-xl" />
-              </Link>
-              <Link href={deployUrl} className="" target="_blank">
-                <HiOutlineArrowTopRightOnSquare className="text-xl" />
-              </Link>
+              {
+                link && (
+                  <Link className="" href={link} target="_blank">
+                    <BsGithub className="text-xl" />
+                  </Link>
+                )
+              }
+              {deployUrl && (
+                <Link href={deployUrl} className="" target="_blank">
+                  <HiOutlineArrowTopRightOnSquare className="text-xl" />
+                </Link>
+              )}
             </div>
           </div>
 
