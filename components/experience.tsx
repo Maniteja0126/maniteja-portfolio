@@ -26,7 +26,7 @@ export default function Experience() {
             className="group mb-3 sm:mb-8 last:mb-0"
           >
             <div className="bg-gray-100 dark:bg-white/10 border border-black/5 dark:border-white/5 rounded-lg px-5 py-4 sm:py-6 hover:bg-gray-200 dark:hover:bg-white/20 transition-all duration-300">
-              <div className="pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50rem] flex flex-col sm:group-even:ml-[18rem]">
+              <div className="pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10  flex flex-col ">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-2xl font-semibold text-left">{item.title}</h3>
                   <div className="text-sm text-gray-600 dark:text-white/70">

@@ -183,12 +183,20 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: "Full Stack Developer Intern",
+    title: "Fullstack Developer Intern (Backend-focused)",
     location: "RogueDevs • Remote",
     description:
-    `• Developed and optimized production-grade backend and indexer services for blockchain applications \n• Built modular service layers and WebSocket systems for real-time blockchain event streaming \n• Implemented CI/CD pipelines with GitHub Actions for testing, containerization, and deployment to AWS and Render \n• Automated monitoring and log rotation for microservices to maintain high uptime and performance`,
+    `• Contributed to backend services and blockchain indexers under senior engineer guidance \n• Implemented API endpoints and event ingestion pipelines \n• Assisted in WebSocket-based real-time updates using Redis pub/sub`,
     icon: React.createElement(FiGithub),
-    date: "May 2025 – Oct 2025",
+    date: "May 2025 – June 2025",
+  },
+  {
+    title: "Fullstack Developer (Backend-focused)",
+    location: "RogueDevs • Remote",
+    description:
+    `• Designed and implemented Node.js/Rust microservices for blockchain indexers and APIs, processing 10k+ events/day \n• Built WebSocket-based real-time streaming using Redis pub/sub and Socket.IO, reducing latency by 60% \n• Developed modular service layers with PostgreSQL, MongoDB, and Redis \n• Automated monitoring and log rotation, improving incident response time by 40%`,
+    icon: React.createElement(FiGithub),
+    date: "July 2025 – Present",
   },
 ] as const;
 
